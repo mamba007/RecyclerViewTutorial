@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
         list.add(new Model(R.drawable.ic_image1,"Disables","Handicapped"));
         list.add(new Model(R.drawable.ic_baseline_account_box_24,"User","User PRofile"));
         list.add(new Model(R.drawable.ic_baseline_emoji_people_24,"Emoji","This is a Emoji"));
-        list.add(new Model(R.drawable.ic_baseline_people_24,"People","This is a Prople"));
-        list.add(new Model(R.drawable.ic_baseline_people_24,"People","This is a Prople"));
-        list.add(new Model(R.drawable.ic_baseline_people_24,"People","This is a Prople"));
+        list.add(new Model(R.drawable.ic_baseline_people_24,"People","This is a People"));
+        list.add(new Model(R.drawable.ic_baseline_people_24,"People","This is a People"));
+        list.add(new Model(R.drawable.ic_baseline_people_24,"People","This is a People"));
 
 
         namesAdapter = new NamesAdapter(list,this);
