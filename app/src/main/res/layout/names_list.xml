@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_View="http://schemas.android.com/apk/res-auto"
+    card_View:cardCornerRadius="5dp"
+    card_View:cardElevation="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="#CCFF66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/name_imageView"
+            android:src="@drawable/ic_image1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/name_textView"
+            android:text="@string/name"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/name_imageView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/description_textView"
+            android:text="@string/Description"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/name_imageView"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
